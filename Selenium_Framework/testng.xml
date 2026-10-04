@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforce login" parallel="none" configfailurepolicy="skip">
+    <test name="Valid credentials">
+        <classes>
+            <class name="com.example.salesforce.tests.ValidLoginTest"/>
+        </classes>
+    </test>
+    <test name="Invalid password">
+        <classes>
+            <class name="com.example.salesforce.tests.InvalidLoginTest"/>
+        </classes>
+    </test>
+</suite>

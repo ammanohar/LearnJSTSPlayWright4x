@@ -1,0 +1,6 @@
+/target/
+/.env
+/.env.*
+/config.local.ps1
+/.idea/
+*.iml
