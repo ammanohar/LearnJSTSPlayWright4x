@@ -20,3 +20,7 @@ const THIS_IS_LONG_VARIABLE_NAME = "Hello";
 
 // 5. Kebab Case (standard for CSS)
 //let first-name = "Manohar";
+
+// 6. Hungarian Notation (standard for C#)
+let strFirstName = "Manohar";
+let strThisIsLongVariableName = "Hello";
